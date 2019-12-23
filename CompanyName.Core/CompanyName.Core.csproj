@@ -45,7 +45,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Aspects\PostsSharp\" />
+    <Folder Include="Aspects\PostsSharp\AuthorizationAspects\" />
+    <Folder Include="Aspects\PostsSharp\CacheAspects\" />
+    <Folder Include="Aspects\PostsSharp\ExceptionAspects\" />
+    <Folder Include="Aspects\PostsSharp\LogAspects\" />
+    <Folder Include="Aspects\PostsSharp\PerformanceAspects\" />
+    <Folder Include="Aspects\PostsSharp\TransactionAspects\" />
+    <Folder Include="Aspects\PostsSharp\ValidationAspects\" />
     <Folder Include="CrossCuttingConcerns\Caching\" />
     <Folder Include="CrossCuttingConcerns\Logging\" />
     <Folder Include="CrossCuttingConcerns\Security\" />
